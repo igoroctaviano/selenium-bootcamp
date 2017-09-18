@@ -17,7 +17,7 @@ describe 'Login' do
     @driver.find_element(id: 'username').send_keys 'username'
     @driver.find_element(id: 'password').send_keys 'password'
     @driver.find_element(id: 'login').submit
-    @driver.find_element(css: '.success').displayed?.should be_true
+    expect(@driver.find_element(css: '.success').displayed?).to be(false)
   end
 
 end
