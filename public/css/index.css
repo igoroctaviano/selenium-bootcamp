@@ -1,0 +1,15 @@
+.input-container {
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 15px;
+}
+
+.success {
+  color: green;
+}
+
+.visible {
+  display: block;
+}

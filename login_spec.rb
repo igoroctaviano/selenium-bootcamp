@@ -3,7 +3,7 @@ require 'selenium-webdriver'
 describe 'Login' do
   
   before :each do  
-    @driver = Selenium::webdriver.for :firefox
+    @driver = Selenium::WebDriver.for :firefox
   end
 
   after :each do
