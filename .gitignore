@@ -1,1 +1,4 @@
-./bundle
+# Ignore bundler config
+/.bundle
+/vendor/bundle/
+/vendor/ruby/
