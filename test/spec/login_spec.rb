@@ -16,8 +16,8 @@ describe 'Login' do
     @driver.get 'http://selenium-bootcamp.herokuapp.com/'
     @driver.find_element(id: 'username').send_keys 'username'
     @driver.find_element(id: 'password').send_keys 'password'
-    @driver.find_element(id: 'login').submit
-    expect(@driver.find_element(css: '.success').displayed?).to be(false)
+    # @driver.find_element(id: 'login').submit
+    expect(@driver.find_element(css: '.success').displayed?).to be(true)
   end
 
 end
